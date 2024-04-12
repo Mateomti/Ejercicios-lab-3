@@ -1,0 +1,24 @@
+html{
+    background-color: #082f78;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+h1{
+    background-color: antiquewhite;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 10px;
+}
+.ltd{
+    border: 0px;
+    padding: 10px;
+}
+table{
+    border-radius: 20px;
+    background-color: #89b9bb;
+    border-color: black;
+    border-style:solid;
+}
+#enviar{
+    margin-left: 56px;
+}

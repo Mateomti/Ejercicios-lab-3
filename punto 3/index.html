@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Ejercicio 3</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="/js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/dia_hrs.js"></script>
+  </head>
+  <body>
+    <h1><center>Ejercicio 3</center></h1>
+    <table class="tabla" align="center">
+      <tr>
+        <th colspan="2" class="ltd">
+          <h2>Escoga una pelicula</h2>
+        </th>
+      </tr>
+
+      <tr>
+        <td class="ltd">
+          <select name="peli" id="peli" value="Elija una opcion">
+            <option value="Dr. House" id="drh">Dr. House</option>
+            <option value="Prision Break" id="pb">Prision Break</option>
+            <option value="The Walking Dead" id="twd">The Walking Dead</option>
+            <option value="Game Of Thrones" id="got">Game Of Thrones</option>
+          </select>
+        </td>
+        <td class="ltd">
+          <center><input type="button" value="Ver Horarios" id="ver" /></center>
+        </td>
+      </tr>
+      <tr>
+        <td class="ltd"><center>Dia</center></td>
+        <td class="ltd"><center>Horarios</center></td>
+      </tr>
+      <tr>
+        <td class="ltd">
+          <input class="text" type="text" placeholder="Dia" id="dia" readonly />
+        </td>
+        <td class="ltd">
+          <input
+            class="text"
+            type="text"
+            placeholder="Horario"
+            id="horario"
+            readonly
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

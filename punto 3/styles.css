@@ -1,0 +1,31 @@
+html{
+    background-color: hsl(271, 100%, 15%);
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+h1{
+    background-color: antiquewhite;
+    margin-left: 800px;
+    margin-right: 800px;
+    border-radius: 15px;
+}
+.tabla{
+    border-color: white;
+    border-style: solid;
+    background-color: #ade18d;
+    border-radius: 10px;
+
+}
+.ltd{
+    padding: 15px;
+}
+#peli{
+    margin-right: 1px;
+    padding: 10px;
+}
+#ver{
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+}

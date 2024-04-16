@@ -3,7 +3,6 @@ $(document).ready(function(){
     var pb=$("#pb").val();
     var twd=$("#twd").val();
     var got=$("#got").val();
-    console.log("putooo")
     
     $('#ver').click(function(){
         if ($("#peli").val() == drh){

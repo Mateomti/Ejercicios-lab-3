@@ -14,8 +14,21 @@ h1{
     border-color: black;
     border-style: solid;
     border-radius: 10px;
-    padding: 7px;
+    padding: 4px;
 }
 .ltd{
     padding: 5px;
+}
+.ltd2{
+    padding: 5px;
+    margin: 1px;
+    width: 30px;
+}
+#res{
+    padding-left: 12px;
+}
+#pres{
+    padding-right: 8px;
+    width: max-content;
+    box-sizing: border-box;
 }

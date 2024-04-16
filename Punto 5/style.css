@@ -1,0 +1,21 @@
+html{
+    background-color: darkolivegreen;
+    font-family:  Arial, sans-serif;
+}
+h1{
+    background-color: antiquewhite;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 14px;
+}
+.tabla{
+    background-color: aquamarine;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 7px;
+}
+.ltd{
+    padding: 5px;
+}

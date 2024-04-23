@@ -1,0 +1,10 @@
+html{
+    background-color: darkslateblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    background-color:cadetblue;
+    margin-left: 750px;
+    margin-right: 750px;
+    border-radius: 15px;
+}

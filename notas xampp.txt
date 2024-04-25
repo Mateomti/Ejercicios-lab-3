@@ -1,0 +1,73 @@
+es un panel de control que se utiliza para cargar el servicio de bases de datos en la nube.
+
+Instrucciones: 
+ 
+	DML: Lenguaje de manipulacion de datos. Es un tipo de instruccion.
+
+
+Tabla Alumno:
+id_alumno	int AUTONUM
+dni		int
+fnacimiento	Date
+apeynom		text
+ciudad		text
+domicilio	text
+mail		text
+genero		text			
+telefono	text
+
+
+Insert: Permite insertar datos en una tabla, su estructura es la siguiente.
+		
+INSERT INTO Alumno(dni, fnacimiento, apeynom,..., telefono) VALUES(43967355, 28/04/2002, 'Mateo Insaurralde',...,'12-345') 
+
+
+
+Update: Permite modificar datos de la tabla con una condicion.
+
+	UPDATE Alumno 
+		       SET dni=12345678, 
+			   fnacimiento=78/78/7878, 
+			   apeynom = 'Martin Tomas'
+		       WHERE id_alumno = 1
+
+
+Delete: Elimina un elemento de una tabla con una condicion.
+
+DELETE FROM Alumno WHERE apeynom = 'nombre falso'
+
+
+Select: Sirve para hacer listados.
+
+
+SELECT A.dni, A.nomyape, A.genero FROM Alumno A,tabla2 WHERE 'condicion'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+		   				
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="js/funcion.js"></script>
+    
+
+</head>
+<body>
+    <h1><center>Ejercicio 6</center></h1>
+    <table class="tabla" align="center" border="1" bgcolor="black">
+        <tr>
+            <td class="ltd">
+                <select name="pc" id="pc">
+                    <option value="vaio">Notebook Vaio Intel Core I3</option>
+                    <option value="lenovo">Notebook Lenovo Intel Core I7</option>
+                    <option value="compaq">Notebook Compaq Intel Core I7</option>
+                    <option value="rca">Notebook RCA Intel Core I3 </option>
+                    <option value="bgh">Notebook Positivo BGH Core I7</option>
+                    <option value="hp">Impresora Multifunción HP</option>
+                    <option value="philco">Tablet Philco Intel 16 GB</option>
+                    <option value="tablet">Tablet Huawei 16 GB</option>
+
+                </select>
+            </td>
+            <td class="ltd">
+                <input type="text" id="pu"readonly placeholder="Precio Unitario">
+            </td>
+        </tr>
+        <tr>
+            <td class="ltd" colspan="2">
+                <center>
+                <input type="number" id="cant" placeholder="Ingrese la cantidad">
+
+                </center>
+            </td>
+        </tr>
+        <tr>
+            <td class="ltd">
+                <center>
+                <button type="submit" id="subtotal" >SubTotal</button>
+                </center>
+            </td>
+            <td class="ltd">
+                <input type="text" id="m_subtotal" readonly placeholder="Subtotal">
+
+            </td>
+        </tr>
+        <tr>
+            <td class="ltd">
+                <center>
+                <button type="submit" id="total">Total</button>
+
+                </center>
+            </td>
+            <td class="ltd">
+                <input type="text" id="m_total" readonly placeholder="Total">
+            </td>
+        </tr>
+        <tr>
+            <td class="ltd" colspan="2">
+                <center>
+                    <button type="submit" id="reset">Resetear</button>
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

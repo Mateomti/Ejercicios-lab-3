@@ -1,0 +1,17 @@
+html{
+    font-family: Arial, sans-serif;
+    background-color: cadetblue;
+}
+h1{
+    background-color: azure;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;    
+}
+.tabla{
+    border-style: solid;
+    border-color: black;
+}
+.ltd{
+    background-color:antiquewhite;
+}

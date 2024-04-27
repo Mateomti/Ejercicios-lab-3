@@ -11,7 +11,10 @@ h1{
 .tabla{
     border-style: solid;
     border-color: black;
+    border-radius: 5px;
+    
 }
 .ltd{
+    padding: 5px;
     background-color:antiquewhite;
 }

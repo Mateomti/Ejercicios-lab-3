@@ -49,7 +49,7 @@ $(document).ready(function(){
     $('#subtotal').click(function(){
         
         cc++;
-        if (cc == 4){
+        if (cc >= 4){
             $('#m_subtotal').val('Ya se han registrado 3 Arts.')
         }
         else{
@@ -77,6 +77,8 @@ $(document).ready(function(){
         cc = 0;
         subt = 0;
         total = 0;
+        $('#cant').val(0);
+
     
     });
 
